@@ -54,7 +54,7 @@ plt.show()
 CHOROPLETH-MAP
 import plotly.express as px
 
-# Latest data for each country
+
 latest_df = df[df["date"] == df["date"].max()]
 
 fig = px.choropleth(latest_df,
